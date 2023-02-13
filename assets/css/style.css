@@ -41,7 +41,7 @@ header h1 {
 header section {
     background: url(../img/background_img.avif);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -67,7 +67,7 @@ main article h3{
     margin: 10vh 0;
 }
 
-main article:nth-of-type(){
+main article:nth-of-type(1){
     margin-bottom: 12vh;
 }
 
